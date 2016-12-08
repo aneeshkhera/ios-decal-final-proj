@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 c4cd1500e978de47785d63393d46be63d60c104c Samuel Steady <samsteady@berkeley.edu> 1481006272 -0800	commit (initial): initial commit
+c4cd1500e978de47785d63393d46be63d60c104c c69e5421e5c015e517fa4f5756d7ec2cdb118404 Samuel Steady <samsteady@berkeley.edu> 1481006672 -0800	commit: dsfg
+c69e5421e5c015e517fa4f5756d7ec2cdb118404 d2cb44ed65b43833ae24c4cb9ccd5d47cd84824f Samuel Steady <samsteady@berkeley.edu> 1481006995 -0800	commit: finially working
+d2cb44ed65b43833ae24c4cb9ccd5d47cd84824f 1f74b84fcddb3f0a2839e2ac36e790a79aeabc25 Samuel Steady <samsteady@berkeley.edu> 1481022336 -0800	commit: progress
+1f74b84fcddb3f0a2839e2ac36e790a79aeabc25 1a6eb5aaf1fd004908db09f9ab69998e2a935a6c Samuel Steady <samsteady@berkeley.edu> 1481025645 -0800	commit: encoding works for user object

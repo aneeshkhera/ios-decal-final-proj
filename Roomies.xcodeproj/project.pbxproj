@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2213A8FC1DF6916F006E4FAD /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213A8EE1DF6916F006E4FAD /* AddItemViewController.swift */; };
+		2213A8FD1DF6916F006E4FAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213A8EF1DF6916F006E4FAD /* AppDelegate.swift */; };
+		2213A8FE1DF6916F006E4FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2213A8F01DF6916F006E4FAD /* Assets.xcassets */; };
+		2213A8FF1DF6916F006E4FAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2213A8F11DF6916F006E4FAD /* LaunchScreen.storyboard */; };
+		2213A9001DF6916F006E4FAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2213A8F31DF6916F006E4FAD /* Main.storyboard */; };
+		2213A9041DF6916F006E4FAD /* CreateHouseholdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213A8F81DF6916F006E4FAD /* CreateHouseholdViewController.swift */; };
+		2213A9071DF6916F006E4FAD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213A8FB1DF6916F006E4FAD /* TableViewCell.swift */; };
+		2226BF871DF88DC7002F2AD0 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 2226BF851DF88DC7002F2AD0 /* check.png */; };
+		2226BF881DF88DC7002F2AD0 /* notchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 2226BF861DF88DC7002F2AD0 /* notchecked.png */; };
+		2226BF8A1DF89862002F2AD0 /* NewChoreUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2226BF891DF89862002F2AD0 /* NewChoreUserViewController.swift */; };
+		2226BF8C1DF8A357002F2AD0 /* AllChoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2226BF8B1DF8A357002F2AD0 /* AllChoresViewController.swift */; };
+		22679EF21DF6CA9800E3F784 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22679EF01DF6CA9800E3F784 /* MainViewController.swift */; };
+		22679EF31DF6CA9800E3F784 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22679EF11DF6CA9800E3F784 /* MainViewController.xib */; };
+		22679EF51DF6D4EE00E3F784 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22679EF41DF6D4EE00E3F784 /* User.swift */; };
+		22679EF91DF73DE000E3F784 /* SSRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22679EF71DF73DE000E3F784 /* SSRadioButton.swift */; };
+		22679EFA1DF73DE000E3F784 /* SSRadioButtonsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22679EF81DF73DE000E3F784 /* SSRadioButtonsController.swift */; };
+		22679EFC1DF73E6900E3F784 /* NewChoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22679EFB1DF73E6900E3F784 /* NewChoreViewController.swift */; };
+		229C4B5A1DF7807C00A18D4A /* Chore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229C4B591DF7807C00A18D4A /* Chore.swift */; };
+		229C4B5C1DF7888F00A18D4A /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229C4B5B1DF7888F00A18D4A /* CalendarViewController.swift */; };
+		22D10B351DF8EA420007FA15 /* AllSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D10B341DF8EA420007FA15 /* AllSetViewController.swift */; };
+		22D10B381DF8EA650007FA15 /* PersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D10B361DF8EA650007FA15 /* PersonTableViewController.swift */; };
+		22D10B391DF8EA650007FA15 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D10B371DF8EA650007FA15 /* DescriptionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2213A8EE1DF6916F006E4FAD /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		2213A8EF1DF6916F006E4FAD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2213A8F01DF6916F006E4FAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2213A8F21DF6916F006E4FAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2213A8F41DF6916F006E4FAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2213A8F71DF6916F006E4FAD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2213A8F81DF6916F006E4FAD /* CreateHouseholdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateHouseholdViewController.swift; sourceTree = "<group>"; };
+		2213A8FB1DF6916F006E4FAD /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		2226BF851DF88DC7002F2AD0 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		2226BF861DF88DC7002F2AD0 /* notchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notchecked.png; sourceTree = "<group>"; };
+		2226BF891DF89862002F2AD0 /* NewChoreUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChoreUserViewController.swift; sourceTree = "<group>"; };
+		2226BF8B1DF8A357002F2AD0 /* AllChoresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllChoresViewController.swift; sourceTree = "<group>"; };
+		22679EF01DF6CA9800E3F784 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		22679EF11DF6CA9800E3F784 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		22679EF41DF6D4EE00E3F784 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		22679EF71DF73DE000E3F784 /* SSRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButton.swift; sourceTree = "<group>"; };
+		22679EF81DF73DE000E3F784 /* SSRadioButtonsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButtonsController.swift; sourceTree = "<group>"; };
+		22679EFB1DF73E6900E3F784 /* NewChoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChoreViewController.swift; sourceTree = "<group>"; };
+		228639B01DB69FE100EB9598 /* Roomies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roomies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		229C4B591DF7807C00A18D4A /* Chore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chore.swift; sourceTree = "<group>"; };
+		229C4B5B1DF7888F00A18D4A /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		22D10B341DF8EA420007FA15 /* AllSetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllSetViewController.swift; sourceTree = "<group>"; };
+		22D10B361DF8EA650007FA15 /* PersonTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewController.swift; sourceTree = "<group>"; };
+		22D10B371DF8EA650007FA15 /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		228639AD1DB69FE100EB9598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2213A8ED1DF6916F006E4FAD /* Roomies */ = {
+			isa = PBXGroup;
+			children = (
+				2226BF851DF88DC7002F2AD0 /* check.png */,
+				2226BF861DF88DC7002F2AD0 /* notchecked.png */,
+				22D10B361DF8EA650007FA15 /* PersonTableViewController.swift */,
+				22D10B371DF8EA650007FA15 /* DescriptionViewController.swift */,
+				22D10B341DF8EA420007FA15 /* AllSetViewController.swift */,
+				22679EFB1DF73E6900E3F784 /* NewChoreViewController.swift */,
+				2226BF891DF89862002F2AD0 /* NewChoreUserViewController.swift */,
+				229C4B5B1DF7888F00A18D4A /* CalendarViewController.swift */,
+				229C4B591DF7807C00A18D4A /* Chore.swift */,
+				22679EF01DF6CA9800E3F784 /* MainViewController.swift */,
+				22679EF11DF6CA9800E3F784 /* MainViewController.xib */,
+				2213A8EE1DF6916F006E4FAD /* AddItemViewController.swift */,
+				2213A8EF1DF6916F006E4FAD /* AppDelegate.swift */,
+				2213A8F01DF6916F006E4FAD /* Assets.xcassets */,
+				2213A8F11DF6916F006E4FAD /* LaunchScreen.storyboard */,
+				2213A8F31DF6916F006E4FAD /* Main.storyboard */,
+				2226BF8B1DF8A357002F2AD0 /* AllChoresViewController.swift */,
+				2213A8F71DF6916F006E4FAD /* Info.plist */,
+				2213A8F81DF6916F006E4FAD /* CreateHouseholdViewController.swift */,
+				2213A8FB1DF6916F006E4FAD /* TableViewCell.swift */,
+				22679EF41DF6D4EE00E3F784 /* User.swift */,
+			);
+			path = Roomies;
+			sourceTree = "<group>";
+		};
+		22679EF61DF73DE000E3F784 /* SSRadioButtonController */ = {
+			isa = PBXGroup;
+			children = (
+				22679EF71DF73DE000E3F784 /* SSRadioButton.swift */,
+				22679EF81DF73DE000E3F784 /* SSRadioButtonsController.swift */,
+			);
+			path = SSRadioButtonController;
+			sourceTree = "<group>";
+		};
+		228639A71DB69FE100EB9598 = {
+			isa = PBXGroup;
+			children = (
+				22679EF61DF73DE000E3F784 /* SSRadioButtonController */,
+				2213A8ED1DF6916F006E4FAD /* Roomies */,
+				228639B11DB69FE100EB9598 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		228639B11DB69FE100EB9598 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				228639B01DB69FE100EB9598 /* Roomies.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		228639AF1DB69FE100EB9598 /* Roomies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 228639C21DB69FE100EB9598 /* Build configuration list for PBXNativeTarget "Roomies" */;
+			buildPhases = (
+				228639AC1DB69FE100EB9598 /* Sources */,
+				228639AD1DB69FE100EB9598 /* Frameworks */,
+				228639AE1DB69FE100EB9598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roomies;
+			productName = Roomies;
+			productReference = 228639B01DB69FE100EB9598 /* Roomies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		228639A81DB69FE100EB9598 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Sam Steady";
+				TargetAttributes = {
+					228639AF1DB69FE100EB9598 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = V355836XS2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 228639AB1DB69FE100EB9598 /* Build configuration list for PBXProject "Roomies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 228639A71DB69FE100EB9598;
+			productRefGroup = 228639B11DB69FE100EB9598 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				228639AF1DB69FE100EB9598 /* Roomies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		228639AE1DB69FE100EB9598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2213A8FF1DF6916F006E4FAD /* LaunchScreen.storyboard in Resources */,
+				2226BF871DF88DC7002F2AD0 /* check.png in Resources */,
+				22679EF31DF6CA9800E3F784 /* MainViewController.xib in Resources */,
+				2226BF881DF88DC7002F2AD0 /* notchecked.png in Resources */,
+				2213A8FE1DF6916F006E4FAD /* Assets.xcassets in Resources */,
+				2213A9001DF6916F006E4FAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		228639AC1DB69FE100EB9598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D10B381DF8EA650007FA15 /* PersonTableViewController.swift in Sources */,
+				22679EF21DF6CA9800E3F784 /* MainViewController.swift in Sources */,
+				2226BF8C1DF8A357002F2AD0 /* AllChoresViewController.swift in Sources */,
+				22679EFA1DF73DE000E3F784 /* SSRadioButtonsController.swift in Sources */,
+				229C4B5A1DF7807C00A18D4A /* Chore.swift in Sources */,
+				2213A8FD1DF6916F006E4FAD /* AppDelegate.swift in Sources */,
+				2213A9041DF6916F006E4FAD /* CreateHouseholdViewController.swift in Sources */,
+				22679EF51DF6D4EE00E3F784 /* User.swift in Sources */,
+				22D10B351DF8EA420007FA15 /* AllSetViewController.swift in Sources */,
+				22679EF91DF73DE000E3F784 /* SSRadioButton.swift in Sources */,
+				229C4B5C1DF7888F00A18D4A /* CalendarViewController.swift in Sources */,
+				2213A9071DF6916F006E4FAD /* TableViewCell.swift in Sources */,
+				2226BF8A1DF89862002F2AD0 /* NewChoreUserViewController.swift in Sources */,
+				2213A8FC1DF6916F006E4FAD /* AddItemViewController.swift in Sources */,
+				22D10B391DF8EA650007FA15 /* DescriptionViewController.swift in Sources */,
+				22679EFC1DF73E6900E3F784 /* NewChoreViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2213A8F11DF6916F006E4FAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2213A8F21DF6916F006E4FAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2213A8F31DF6916F006E4FAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2213A8F41DF6916F006E4FAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		228639C01DB69FE100EB9598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		228639C11DB69FE100EB9598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		228639C31DB69FE100EB9598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V355836XS2;
+				INFOPLIST_FILE = Roomies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samsteady.To-Do-List-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		228639C41DB69FE100EB9598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V355836XS2;
+				INFOPLIST_FILE = Roomies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samsteady.To-Do-List-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		228639AB1DB69FE100EB9598 /* Build configuration list for PBXProject "Roomies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228639C01DB69FE100EB9598 /* Debug */,
+				228639C11DB69FE100EB9598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		228639C21DB69FE100EB9598 /* Build configuration list for PBXNativeTarget "Roomies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228639C31DB69FE100EB9598 /* Debug */,
+				228639C41DB69FE100EB9598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 228639A81DB69FE100EB9598 /* Project object */;
+}
